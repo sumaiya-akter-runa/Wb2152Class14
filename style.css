@@ -1,0 +1,71 @@
+#opp{
+    border:10px dotted black;
+background-image: url('image/chicks.0.0.0.0.webp');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    padding: 20px;
+    background-origin: content-box;
+}
+
+#opp1{
+    border:10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: padding-box;
+}
+
+#opp2{
+    border:10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: content-box;
+}
+
+#opp3{
+    height: 200px;
+    background-image:url(image/images.png),url(image/images.jpeg);
+    background-repeat:no-repeat;
+    background-size: 200px;
+    background-position: left,right;
+}
+#opp4{
+    height: 400px;
+    background-image:url(image/images.png),url(image/images.jpeg),url(image/download.jpeg);
+    background-repeat:no-repeat;
+    background-size: 200px 200px,200px 200px,200px 200px;
+    background-position: 0px 0px,200px 0,400px 0px;
+}
+
+#op{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+   
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 1000;
+    margin-bottom: 50px;
+}
+#op1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    
+}
+p{
+    border: 2px solid black;
+    margin: 15px;
+}
+#op2{
+     height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: auto;
+}
+.child{
+    border: 2px dotted green;
+    height:70px;
+    width: 70px;
+}
